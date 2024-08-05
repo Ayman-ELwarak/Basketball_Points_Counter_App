@@ -164,7 +164,7 @@ class _Basketball_appState extends State<Basketball_app> {
                           ),
                           onPressed: () {
                             setState(() {
-                              teamBpoints += 2;
+                               teamBpoints += 2;
                             });
                           },
                           child: const Text(
